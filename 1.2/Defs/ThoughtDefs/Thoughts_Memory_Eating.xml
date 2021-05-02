@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtSettings>
+    <butcherThoughtSpecific>
+      <li>
+        <raceList>
+          <li>Alien_Ovium</li>
+        </raceList>
+        <thought>ButcheredOviumCorpse</thought>
+        <knowThought>KnowButcheredOviumCorpse</knowThought>
+      </li>
+    </butcherThoughtSpecific>
+    <ateThoughtSpecific>
+      <li>
+        <raceList>
+          <li>Alien_Ovium</li>
+        </raceList>
+        <thought>OviumDirect</thought>
+        <ingredientThought>OviumIngredient</ingredientThought>
+      </li>
+    </ateThoughtSpecific>
+  </ThoughtSettings>
+  <ThoughtDef>
+    <defName>OviumIngredient</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>2</stackLimit>
+    <nullifyingTraits>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate an ovium friend</label>
+        <description>I ate a meal made from mutton. This is awful but kinda tasty.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>OviumDirect</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>3</stackLimit>
+    <nullifyingTraits>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate a raw ovium friend</label>
+        <description>I ate raw mutton. They were my friends!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>ButcheredOviumCorpse</defName>
+    <durationDays>3.0</durationDays>
+    <stackLimit>2</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>I butchered ovium</label>
+        <description>I butchered someone up like an animal.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>KnowButcheredOviumCorpse</defName>
+    <durationDays>3.0</durationDays>
+    <stackLimit>1</stackLimit>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>We butchered ovium</label>
+        <description>We butchered someone up like an animal.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonOviumM</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[OviumfirstM] [Oviumlast]</li>
+        <li>name-&gt;[badassovi] [OviumfirstM]</li>
+        <li>name-&gt;[OviumfirstM] '[badassovi]' [Oviumlast]</li>
+        <li>name-&gt;[OviumfirstM] [badassovi]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>OviumfirstM</keyword>
+          <path>Ovium_Names/OviumM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Oviumlast</keyword>
+          <path>Ovium_Names/Oviumlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassovi</keyword>
+          <path>Ovium_Names/Concepts_Ovium</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerPersonOviumF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[OviumfirstF] [Oviumlast]</li>
+        <li>name-&gt;[badassovi] [OviumfirstF]</li>
+        <li>name-&gt;[OviumfirstF] '[badassovi]' [Oviumlast]</li>
+        <li>name-&gt;[OviumfirstF] [badassovi]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>OviumfirstF</keyword>
+          <path>Ovium_Names/OviumF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Oviumlast</keyword>
+          <path>Ovium_Names/Oviumlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassovi</keyword>
+          <path>Ovium_Names/Concepts_Ovium</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

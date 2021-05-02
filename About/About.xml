@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Buldinn Ovium Progenies (Buldinn's Sheep Race) (Continued)</name>
+  <packageId>Mlie.BuldinnOviumProgenies</packageId>
+  <author>jaeger972 a.k.a. Mercer</author>
+  <url>https://github.com/emipa606/BuldinnOviumProgenies</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of jaeger972 a.k.a. Mercers mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1087223311
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/BuldinnOviumProgenies][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+A humanoid sheep race made by special request from Buldinn
+	
+	The Ovium race is sheepkin and thus fairly kind but frail.
+	They are a peaceful race and won't be on the aggresive side.
+	As sheep, they are vegetarians and can eat food from the ground and don't mind to be naked or eat kibble.
+	They are fairly skilled gardeners and love to socialise and are often kind and pretty.
+	Traits like greed, bloodlust and jealousy are shunned in Ovium culture so you will seldom find sheepkin with such traits.
+	Their warm wool protects them from the cold but also causes them to sweat more easily and even catch fire faster.
+	They are your goto race for a simple and peaceful colony life.
+
+shoutout to #NotAMillennial for letting me use his icon from www.computersheep.com
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+

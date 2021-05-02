@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="HumanFactionBase">
+    <defName>OviumEmpire</defName>
+    <label>Ovium colony</label>
+    <description>A colony of the mysterious Ovium race.</description>
+    <pawnsPlural>Ovium</pawnsPlural>
+    <settlementGenerationWeight>.75</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Great Shepard</leaderTitle>
+    <startingGoodwill>
+      <min>20</min>
+      <max>90</max>
+    </startingGoodwill>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>10</min>
+      <max>50</max>
+    </naturalColonyGoodwill>
+    <visitorTraderKinds>
+      <li>Visitor_Ovium_Standard</li>
+    </visitorTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+        <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <OviumColonist>50</OviumColonist>
+          <OviumSecurityGuard>90</OviumSecurityGuard>
+          <OviumTribalLeader>250</OviumTribalLeader>
+          <OviumRecruit>100</OviumRecruit>
+          <OviumHunter>130</OviumHunter>
+          <OviumCommando>130</OviumCommando>
+          <OviumCommandoElite>170</OviumCommandoElite>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <OviumTrader>2</OviumTrader>
+        </traders>
+        <carriers>
+          <Muffalo>2</Muffalo>
+          <Dromedary>2</Dromedary>
+        </carriers>
+        <guards>
+          <OviumSecurityGuard>90</OviumSecurityGuard>
+          <OviumRecruit>100</OviumRecruit>
+          <OviumHunter>130</OviumHunter>
+          <OviumCommando>130</OviumCommando>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <OviumColonist>50</OviumColonist>
+          <OviumSecurityGuard>90</OviumSecurityGuard>
+          <OviumTribalLeader>250</OviumTribalLeader>
+          <OviumRecruit>100</OviumRecruit>
+          <OviumHunter>130</OviumHunter>
+          <OviumCommando>130</OviumCommando>
+          <OviumCommandoElite>170</OviumCommandoElite>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/OviumBaseIcon</settlementTexturePath>
+    <factionIconPath>World/OviumBaseIcon</factionIconPath>
+  </FactionDef>
+</Defs>
