@@ -128,9 +128,6 @@
           </lifeStageDefs>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>true</hasHair>
-      </hairSettings>
       <relationSettings>
         <relationChanceModifierChild>1.1</relationChanceModifierChild>
         <relationChanceModifierExLover>1</relationChanceModifierExLover>
